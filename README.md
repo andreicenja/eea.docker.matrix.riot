@@ -4,9 +4,6 @@ Docker image for https://github.com/vector-im/riot-web/ installed on an NGINX we
 
 Integration enabled by default.
 
-## Supported tags and respective Dockerfile links
-
-  - [Tags](https://hub.docker.com/r/eeacms/matrix-riotweb/tags/)
 
 ## Base docker image
 
