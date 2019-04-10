@@ -24,7 +24,7 @@ Integration enabled by default.
 ## Usage
 
 ```
-docker run -d -p 8080:80 -v /tmp/data:/data eeacms/matrix-riotweb
+docker run -d -p 8080:80 -v /tmp/data:/data andreicenja/eea.docker.matrix.riot
 ```
 
 ## Copyright and license
