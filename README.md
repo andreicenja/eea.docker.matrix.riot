@@ -10,11 +10,13 @@ Integration enabled by default.
 
 ## Base docker image
 
- - [eeacms/matrix-riotweb](https://hub.docker.com/r/eeacms/matrix-riotweb/)
+  - [andreicenja/eea.docker.matrix.riot](https://cloud.docker.com/repository/docker/andreicenja/eea.docker.matrix.riot/)
+
 
 ## Source code
 
-  - [eea/eea.docker.matrix.riot](http://github.com/eea/eea.docker.matrix.riot)
+  - [andreicenja/eea.docker.matrix.riot](https://github.com/andreicenja/eea.docker.matrix.riot/)
+  
 
 ## Variables
 
