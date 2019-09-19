@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/sh
 
 if [ -z "${HOME_SERVER_URL}" ]; then
 	echo "HOME_SERVER_URL not set, 'http://localhost:8008' by default"
@@ -12,7 +12,7 @@ fi
 
 
 generate_config() {
-cat <<EOF > /var/www/riot/config.json
+cat <<EOF > /app/config.json
 {
     "default_hs_url": "${HOME_SERVER_URL}",
     "default_is_url": "${IDENTITY_SERVER_URL}",
@@ -45,7 +45,6 @@ cat <<EOF > /var/www/riot/config.json
         "promptBeforeInviteUnknownUsers": false
     }
 }
-
 EOF
 }
 
